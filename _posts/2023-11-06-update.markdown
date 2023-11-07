@@ -5,4 +5,52 @@ date:   2023-11-06 14:17:43 -0800
 categories: update                                                              
 ---                                                                             
 
-Midterm update goes here.
+## Progress on the project
+
+Over the course of my research in the last two weeks, I happened upon a paper that is outside the original scope of my project: [Geometry images](https://hhoppe.com/proj/gim/) by Gu, et al. Their paper piqued my interest enough that I would like to adjust this project's direction to focus on 3D mesh compression. Compression of meshes also ties into my current interests: I have relevant experience from both CSC 486B and MATH 320.
+
+# Aside: Terminology
+
+- [Polygon mesh](https://en.wikipedia.org/wiki/Polygon_mesh#): A collection of vertices, edges, and faces which together describe some polyhedral object. The faces of a mesh are various polygons (two common types are triangle meshes and quadrilateral (quad) meshes.
+
+Gu's paper linked above discusses a novel way to compress meshes by converting them into images. The rationale being that much like how nuclear power plants generate electricity indirectly by generating steam for a steam turbine, we can leverage existing efficient methods of image compression to perform lossy compression on meshes.
+
+# Searching for further material
+
+After reading that initial paper, I wanted to confirm that 3D mesh compression was an active field. I quickly stumbled upon [this 2014 review](https://search.library.uvic.ca/permalink/01VIC_INST/1ohem39/cdi_hal_primary_oai_HAL_hal_01174418v1) of the history of mesh compression.
+
+I also read in *Fundamentals of Multimedia* that the MPEG-4 standard uses a 3D polygon mesh representation for Body Definition Parameters (BDPs) for encoding people as 3D models in video. The standard similarly discusses 2D mesh-based coding to animate "synthetic objects" (created by computer graphics and animation software). The former appears to be outside of the scope of my project as it is not in widespread use, the latter I have yet to look into.
+
+## Proposal update & requested adjustments
+
+I would like to take this project in a direction related to mesh compression, ideally such that its research is based around a real-world application of 3D meshes. For example, minimizing load times for meshes in JavaScript games on the web.
+
+Some other benefits of mesh compression the papers I have skimmed have listed are:
+- They are increasingly common in multimedia applications such as VR/AR.
+- Currently many formats exist, and common (easily transmittable) interchange formats are required.
+- Generic lossless data compression is not particularly efficient for meshes, because it does not take into account the structure of a mesh.
+
+I have yet to learn of the applications of lossy mesh compression.
+
+## Technical challenges met, solved, and remaining
+
+The main technical challenge that I have encountered is in conducting an overview of progress in this field. I am finding the pre-existing research dense, and far-reaching: many compression techniques exploit completely different properties of mesh data structures. In general, I have not determined which mesh compression techniques would be most relevant to consider for the scope of this project. I will eventually wade through more on my own, but if anyone with a background in the literature has suggestions as to where to focus this project's attention, it would help immensely.
+
+## Additional help needed
+
+Specifically I am seeking feedback as to how I can refine my project proposal. I am wondering whether it is worthwhile to continue to focus on real-time compression if this project is researched in the context of meshes, since I am having trouble finding:
+- A) Papers related to real-time mesh compression (I am aware of [this one](https://search.library.uvic.ca/permalink/01VIC_INST/1ohem39/cdi_acm_primary_280836)).
+- B) Practical reasons to perform real-time compression on meshes.
+- C) Practical uses of lossy compression on meshes.
+
+And of course, all other comments and suggestions are appreciated.
+
+# References
+
+[1] X. Gu, S. Gortler, and H. Hoppe, “Geometry images,” ACM transactions on graphics, vol. 21, no. 3, pp. 355–361, 2002, doi: 10.1145/566654.566589.
+
+[2] A. Maglo, G. Lavoué, F. Dupont, and C. Hudelot, “3D Mesh Compression: Survey, Comparisons, and Emerging Trends,” ACM computing surveys, vol. 47, no. 3, pp. 1–41, 2015, doi: 10.1145/2693443.
+
+[3] Z.-N. Li, M. S. Drew, and J. Liu, Fundamentals of Multimedia by Ze-Nian Li, Mark S. Drew, Jiangchuan Liu., 3rd ed. 2021. Cham: Springer International Publishing, 2021. doi: 10.1007/978-3-030-62124-7.
+  
+[4] S. Gumhold and W. Straßer, “Real time compression of triangle mesh connectivity,” in Proceedings of the 25th annual conference on computer graphics and interactive techniques, 1998, pp. 133–140. doi: 10.1145/280814.280836.
