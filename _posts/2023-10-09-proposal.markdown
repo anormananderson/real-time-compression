@@ -1,7 +1,47 @@
 ---
 layout: post
-title:  "Project Proposal"
+title:  "Project proposal"
 date:   2023-10-09 23:59:20 -0700
 categories: proposal
 ---
 
+## Motivation
+Real-time compression and adaptive bitrate streaming, while established fields, are still relevant today. End users encounter dozens of situations in their day-to-day lives where they find themselves wishing data was compressed quickly enough. Take for example a band practicing remotely via Zoom, as they struggle to keep time with each other.
+
+Take adaptive compression, which is particularly useful for networks which have highly variable network speeds, such as Starlink. Research into this topic crucial because these satellite networks are currently the only options large parts of the world have for Internet access, and improving compression software is a relatively cheap way to improve the quality of that service.
+
+## Goal
+Explore current compression algorithms, and software approaches to real-time compression and adaptive bitrate streaming. Summarize common challenges that arise when implementing real-time compression algorithms.
+
+## Previous Research
+# What has been done?
+
+| DASH |
+| WebM |
+
+
+# Why are they not sufficient?
+A lot of video streaming nowadays is oriented towards modern connection speeds. In my research, I plan to focus on how these techniques apply to all connections.
+
+## Deliverables
+
+# - Log book
+# - Project proposal
+# - Project update
+# - Project demo
+# - Project report
+
+## Timeline
+
+| Week | Deliverables |
+|------|--------------|
+| W6 | Oct 9: Project proposal (1 page, double spaced, single column) |
+| W7 | Refine deliverables and timeline | 
+| W7-8 | Researching DASH and WebM, search for additional topics |
+| W10  | Nov 9: Project update |
+| W14 | Dec 4: Project demo |
+| W14 | Create the final project report |
+| W15 | Dec 11: Project report (10 pages, double spaced, single column) |
+
+## References
+[1] T. Stockhammer, “Dynamic adaptive streaming over HTTP – Design Principles and Standards,” Proceedings of the second annual ACM conference on Multimedia systems, 2011. doi:10.1145/1943552.1943572

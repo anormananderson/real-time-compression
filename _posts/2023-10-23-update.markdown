@@ -5,5 +5,45 @@ date:   2023-10-23 23:13:35 -0700
 categories: update
 ---
 
-First update to the project website.
+## Overview
 
+This project's proposal originally discussed that a lot of today's video-streaming is oriented towards modern connection speeds. In British Columbia, rural communities often have subpar connection speeds: therefore my focus in these two weeks concerned real-time compression techniques which could benefit users who found themselves in these kinds of situations.
+
+I began by surveying several pre-existing compression standards, aiming to collect ones intended for real-time compression. The next step of my plan is to investigate whether any of these compression standards are related to current adapative bitrate streaming technolgy that is in use.
+
+# Technologies explored:
+
+- Zstandard (zstd)
+- Brotil
+- LZ77 and LZ78
+- DEFLATE
+- Snappy
+
+## Goals
+To uncover which algorithms form the basis of real-time compression algorithms, as well as to learn what current "state of the art" compression algorithms look like.
+
+## Algorithms explored
+
+# Zstandard
+
+Zstandard (zstd) is a lossless compression algorithm developed by Facebook. In fact, it is currently deployed as part of Facebook's infrastructure. Zstd is open source and formally documented, as part of RFC 8878. Not only does zstd define its own stages to compress data, it also relies on further "entropy encoding" (Huffman coding to compress literals, and Finite State Entropy to compress the other symbols and Huffman headers).
+
+# Brotil
+
+Brotil is one of the algorithms zstd uses for comparison in its benchmarks. Brotil is a lossless compression algorithm developed by Google. It uses LZ77 and Huffman coding. One of its primary uses is to compress content for the web, to improve load times.
+
+# LZ77 and LZ78
+
+Two famous algorithms developed by Abraham Lempel and Jacob Ziv in the late '70s, which have inspired the majority of other compression algorithms listed on this page. I have yet to research the design of these algorithms.
+
+# DEFLATE
+
+A file format, combining LZ77 and Huffman coding. In other words, the algorithm to construct it is based on similar principles as Brotil. Like zstd, it also has a published specification (RFC 1951). DEFLATE is implemented as part of the PNG compression stage, and is also the algorithm most commonly used in the ZIP file format.
+
+# Snappy
+
+Another compression algorithm developed by Google, also designed for real-time compression, rather than to minimize the size of a compressed file. Like zstd, Snappy is also used in production. Google claims Snappy currently is implemented in both their BigTable and MapReduce systems.
+
+## Conclusion
+
+Although I explored real-time compression in these two weeks, I am still unsure whether there are sections of the algorithms that I explored which I could implement within the time frame of my project. To remedy this, in the future I plan to explore the topics above in detail. The next step for this project is to look into how zstd actually compresses its data, and whether a portion of its algorithm can be implemented within the time constraints of this project.
