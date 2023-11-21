@@ -10,7 +10,7 @@ katex: True
 
 A big thank you to everyone who provided feedback on my project and its direction over the past week internally on Teams. Bearing in mind everyone's suggestions, I revised my project proposal over the past week (detailed in my last blog post).
 
-Due to my time constraints I plan to pick any implementation of a mesh compression algorithm (hopefully a [geometry images](https://hhoppe.com/proj/gim/) algorithm) that will be feasible to complete within the remainder of the term. Since I anticipate this algoirthm will not work in a real-time setting, I would like to (time permitting) compare it to the other pre-existing algorithms/formats that were suggested to me such as [Nanite](https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/) (thank you Victor), and [Draco](https://google.github.io/draco/) or [tmf](https://lib.rs/crates/tmf) (thank you Matthew).
+Due to my time constraints I plan to pick any implementation of a mesh compression algorithm (hopefully a [geometry images](https://hhoppe.com/proj/gim/) algorithm) that will be feasible to complete within the remainder of the term. Since I anticipate this algorithm will not work in a real-time setting, I would like to (time permitting) compare it to the other pre-existing algorithms/formats that were suggested to me such as [Nanite](https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/) (thank you Victor), and [Draco](https://google.github.io/draco/) or [tmf](https://lib.rs/crates/tmf) (thank you Matthew).
 
 ## Project demo structure
 

@@ -9,7 +9,7 @@ categories: update
 
 This project's proposal originally discussed that a lot of today's video-streaming is oriented towards modern connection speeds. In British Columbia, rural communities often have subpar connection speeds: therefore my focus in these two weeks concerned real-time compression techniques which could benefit users who found themselves in these kinds of situations.
 
-I began by surveying several pre-existing compression standards, aiming to collect ones intended for real-time compression. The next step of my plan is to investigate whether any of these compression standards are related to current adapative bitrate streaming technolgy that is in use.
+I began by surveying several pre-existing compression standards, aiming to collect ones intended for real-time compression. The next step of my plan is to investigate whether any of these compression standards are related to current adaptive bitrate streaming technology that is in use.
 
 # Technologies explored:
 
