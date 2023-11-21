@@ -1,0 +1,26 @@
+---                                                                             
+layout: post                                                                    
+title:  "Biweekly update #3"                                                       
+date:   2023-11-20 22:54:40 -0700                                               
+categories: update                                                              
+katex: True
+---                                                                             
+
+## Progress on the project
+
+A big thank you to everyone who provided feedback on my project and its direction over the past week internally on Teams. Bearing in mind everyone's suggestions, I revised my project proposal over the past week (detailed in my last blog post).
+
+Due to my time constraints I plan to pick any implementation of a mesh compression algorithm (hopefully a [geometry images](https://hhoppe.com/proj/gim/) algorithm) that will be feasible to complete within the remainder of the term. Since I anticipate this algoirthm will not work in a real-time setting, I would like to (time permitting) compare it to the other pre-existing algorithms/formats that were suggested to me such as [Nanite](https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/) (thank you Victor), and [Draco](https://google.github.io/draco/) or [tmf](https://lib.rs/crates/tmf) (thank you Matthew).
+
+## Project demo structure
+
+This week I have also focused on determining the structure for my upcoming project presentation (demo video). Taking into account that the project demonstration is intended to be a "marketing showcase" of my work, I intend to show my working code, as well as present a basic overview of any math involved so that anyone interested can read about the project's in-depth details on this website.
+
+I still need to decide how I will visually present my project. So far I have considered the following:
+- Slideshow presentation
+- Vlog-style cold open
+- Animation
+
+On the point of animation, I doubt I have the time to animate something to showcase my project, but on the off-chance you are seeking video presentation ideas, Grant (3blue1brown) Sanderson's [Manim](https://www.manim.community/) software is incredibly sophisticated. He uses it for all of his YouTube videos.
+
+I also have added $$\KaTeX$$ support to this blog in the hopes that my next update will include some mathematical equations that I will need to render.
