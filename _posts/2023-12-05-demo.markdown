@@ -1,0 +1,32 @@
+---                                                                             
+layout: post                                                                    
+title:  "Project demo"                                                       
+date:   2023-12-05 12:00:00 -0800                                               
+categories: update                                                              
+katex: True
+---                                                                             
+
+For posterity, here is a link to the demo video produced for this project. [Here is the .ipynb file used during the demo.][1]
+
+[1]:{{ site.baseurl }}/assets/download/csc461-proj-final.ipynb
+
+**Warning for headphone users at 5:00!**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Caw7d_83wE?si=_WxGjFqsqAi7RrTD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Video description
+
+HEADPHONE WARNING AT 5:00! Please see below for some technical details from the project that were omitted.
+
+A demo video for my real-time mesh compression project in UVic’s multimedia course. More details are available at anormananderson.github.io/real-time-compression/.
+
+This demo implements a (very) simplified version of the paper “Geometry Images” by Gu et al. In the video, I show what a camel head mesh looks like when it is compressed and then recovered, first as a 256x256 image (4:15), and additionally later in the video demo as a 32x32 image (5:32).
+
+I had to cut where I talked about the u, v parameterization for time. You can see all of the vertices on the u, v plane (and their edges visualized) at 2:33 briefly. The image directly below it in the notebook is the (original) camel head mesh, which is also very briefly on screen at 2:30.
+
+100% of the time budget for this went into the editing. Help.
+
+“Geometry Images” by Gu et al: hhoppe.com/proj/gim/ libigl: github.com/libigl/libigl-python-bindings meshplot: github.com/skoch9/meshplot/
+
+Thanks for the view!
+
