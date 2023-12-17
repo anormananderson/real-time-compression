@@ -6,7 +6,7 @@ This is a project site from the University of Victoria's Fall 2023 offering of C
 
 This site is a record of my progress along the way, and includes:
 
-- [Biweekly project updates](https://anormananderson.github.io)
+- [Biweekly project updates](https://anormananderson.github.io/real-time-compression)
 - [A demo video](https://anormananderson.github.io/real-time-compression/update/2023/12/05/demo.html)
 - [An end-of-term final report](https://anormananderson.github.io/real-time-compression/report/2023/12/12/report.html)
 
