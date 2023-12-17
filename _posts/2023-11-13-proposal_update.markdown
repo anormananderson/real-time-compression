@@ -1,7 +1,7 @@
 ---                                                                             
 layout: post                                                                    
 title:  "Updated project proposal: Real-Time Mesh Compression"
-date:   2023-11-13 22:51:18 -0800                                               
+date:   2023-11-13 12:00:00 -0800                                               
 categories: update, proposal                                                              
 ---                                                                             
 
