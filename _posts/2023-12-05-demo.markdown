@@ -1,6 +1,6 @@
 ---                                                                             
 layout: post                                                                    
-title:  "Project demo"                                                       
+title:  "Project demo: (Not) Real-Time Mesh Compression"
 date:   2023-12-05 12:00:00 -0800                                               
 categories: update                                                              
 katex: True

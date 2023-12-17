@@ -1,6 +1,6 @@
 ---                                                                             
 layout: post                                                                    
-title:  "Biweekly update #3"                                                       
+title:  "Biweekly update: Project Demo Musings"
 date:   2023-11-20 22:54:40 -0800                                               
 categories: update                                                              
 katex: True

@@ -1,6 +1,6 @@
 ---                                                                             
 layout: post                                                                    
-title:  "Project report"                                                       
+title:  "Project report: Real-Time Mesh Compression Implementation"
 date:   2023-12-11 21:49:30 -0800                                               
 categories: report                                                              
 katex: True

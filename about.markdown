@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is a project site from the University of Victoria's Fall 2023 offering of CSC 461. My project explored real-time compression, and eventually narrowed to focus on polygon meshes.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This site is a record of my progress along the way, and includes:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- [Biweekly project updates]({{ site.baseurl }})
+- [A demo video]({{ site.baseurl }}/update/2023/12/05/demo.html)
+- [An end-of-term final report]({{ site.baseurl }}/report/2023/12/11/report.html)

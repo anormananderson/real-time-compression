@@ -21,10 +21,9 @@
 title: Real-Time Compression
 email: normananderson@uvic.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a project site for the University of Victoria's Fall 2023 offering of 
-  CSC 461 course. My project is currently ongoing, and plans to explore 
-  real-time compression and adaptive bitrate streaming.
-baseurl: /real-time-compression/ # the subpath of your site, e.g. /blog
+  Project site from the University of Victoria's Fall 2023 offering of 
+  CSC 461.
+baseurl: /real-time-compression # the subpath of your site, e.g. /blog
 domain: anormananderson.github.io
 url: https://anormananderson.github.io # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
